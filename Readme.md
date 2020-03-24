@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Konstanz Bakharev](https://up.htmlacademy.ru/adaptive/19/user/197437).
-* Наставник: `Неизвестно`.
+* Наставник: [Konstanz Bakharev](https://up.htmlacademy.ru/adaptive/19/user/197437).
 
 ---
 
