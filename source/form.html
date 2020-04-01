@@ -18,8 +18,73 @@
       </nav>
     </header>
 
-    <main>
+    <main class="page-form">
 
+      <b class="page-form__title">оставьте свой отзыв</b>
+      <p>помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+
+      <form class="form" action="https://echo.htmlacademy.ru">
+
+        <fieldset class="form__section">
+          <legend class="form__section-title">представьтесь:</legend>
+          <div class="textbox">
+            <label class="textbox__title" for="fname">имя*:</label>
+            <input type="text" id="fname" name="fname" placeholder="Петр">
+            <label class="textbox__title" for="lname">фамилия*:</label>
+            <input type="text" id="lname" name="lname" placeholder="Иванов">
+            <label class="textbox__title" for="patronymic">отчество:</label>
+            <input type="text" id="patronymic" name="patronymic" placeholder="Александрович">
+          </div>
+        </fieldset>
+
+        <fieldset class="form__section">
+          <legend class="form__section-title">контактная информация:</legend>
+          <div class="textbox">
+            <label class="textbox__title" for="phone">контактный телефон*:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Введите телефон">
+            <label class="textbox__title" for="mail">электронная почта*:</label>
+            <input type="email" id="mail" name="mail" placeholder="Введите e-mail">
+          </div>
+        </fieldset>
+
+        <fieldset class="form__section">
+          <legend class="form__section-title">ваше общее впечатление:</legend>
+          <div class="toggle">
+            <input type="radio" id="positive" name="positive" checked>
+            <label class="toggle__title" for="positive">скорее положительное</label>
+            <input type="radio" id="negative" name="negative">
+            <label class="toggle__title" for="negative">скорее отрицательное</label>
+            <input type="radio" id="difficult" name="difficult">
+            <label class="toggle__title" for="difficult">затрудняюсь ответить</label>
+          </div>
+        </fieldset>
+
+        <fieldset class="form__section">
+          <legend class="form__section-title">посещенные достопримечательности:</legend>
+          <div class="checkbox">
+            <input type="checkbox" id="devil" name="devil" checked>
+            <label class="checkbox__title" for="devil">мост дьявола</label>
+            <input type="checkbox" id="bell" name="bell" checked>
+            <label class="checkbox__title" for="bell">гора-колокол</label>
+            <input type="checkbox" id="park" name="park" checked>
+            <label class="checkbox__title" for="park">слайд-парк</label>
+            <input type="checkbox" id="rocks" name="rocks">
+            <label class="checkbox__title" for="rocks">красные скалы</label>
+          </div>
+        </fieldset>
+
+        <fieldset class="form__section">
+          <legend class="form__section-title">опишите свои эмоции:</legend>
+          <textarea name="text" cols="30" rows="10" placeholder="Опишите подробно все свои восторги"></textarea>
+        </fieldset>
+
+        <fieldset class="form__section">
+          <div class="form__section-send">
+            <input class="btn" type="submit" value="отправить отзыв">
+          </div>
+        </fieldset>
+
+      </form>
     </main>
 
     <footer class="page-footer">
