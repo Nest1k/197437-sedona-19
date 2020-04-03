@@ -1,0 +1,20 @@
+.social {
+  text-align: center;
+
+}
+
+.social__title {
+  font-size: 21px;
+}
+
+.social__list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social__item {
+  background-color: #81b3d2;
+  width: 47px;
+  height: 47px;
+}
