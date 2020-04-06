@@ -1,34 +1,50 @@
-// .couse:first-child {
-//   background-image: url(../../img/bg-triangle.svg);
-//   background-repeat: no-repeat;
-//   background-position: 50% top;
-//   background-size: 768px  36px;
-// }
-
 .cause {
   background-color: #81b3d2;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 22px;
+}
+
+.cause--background {
+  content: "";
+  background-image: url(../img/bg-triangle.svg);
+  background-repeat: no-repeat;
+  padding-top: 59px;
 }
 
 .cause--brief {
   background-color: #efefef;
   color: #333333;
+  padding-top: 0;
 }
 
 .cause__text {
   width: 258px;
   margin: auto;
+  padding-bottom: 15px;
+  padding-top: 10px;
 }
 
 .cause__text--mod {
   color: #ffffff;
   width: 265px;
+  padding-bottom: 0;
+  padding-top: 0;
+  &::before {
+    content: "";
+    background-image: url(../../img/bg-triangle.svg);
+    background-repeat: no-repeat;
+    display: block;
+  }
 }
 
 .cause__title {
   font-size: 18px;
   line-height: 26px;
+  margin-bottom: 11px;
+}
+
+.cause__number {
+  margin-top: 0;
 }
 
 .cause__number::before {
@@ -37,4 +53,13 @@
 
 .cause__number::after {
   content: " -";
+}
+
+.cause__photo {
+  padding-top: 29px;
+  height: 260px;
+}
+
+.cause__photo--padding {
+  padding-top: 25px;
 }
