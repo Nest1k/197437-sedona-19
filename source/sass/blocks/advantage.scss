@@ -3,15 +3,37 @@
 
 .advantage__list {
   list-style-type: none;
+  padding-left: 22px;
+  padding-top: 5px;
+  margin-bottom: 22px;
 }
 
 .advantage__item {
-  width: 210px;
   color: #333333;
+  display: flex;
+  flex-wrap: wrap;
+  //align-items: flex-start;
+  padding-top: 7px;
+  padding-bottom: 2px;
+}
+
+.advantage__wrapper {
+  width: 208px;
+  padding-left: 11px;
 }
 
 .advantage__title {
   font-size: 18px;
   line-height: 26px;
   color: #000000;
+  margin-top: 6px;
+  margin-bottom: 12px;
+}
+
+.advantage__text {
+}
+
+.advantage__svg {
+  width: 37px;
+  height: 37px;
 }

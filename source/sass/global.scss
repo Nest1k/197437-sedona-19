@@ -6,10 +6,17 @@ body {
   font-weight: 400;
   background-color: white;
   color: black;
-  width: 320px;
+  min-width: 320px;
   margin: auto;
+  padding: 0;
 }
 
 .visually-hidden {
   visibility: hidden;
+}
+
+.fix-with {
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
 }

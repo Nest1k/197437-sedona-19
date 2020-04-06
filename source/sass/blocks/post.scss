@@ -1,6 +1,7 @@
 .post {
   margin-left: 20px;
-  //background-color: red;
+  padding-top: 22px;
+  line-height: 24px;
 }
 
 .post__picture {
@@ -8,13 +9,29 @@
 
 .post__title {
   font-size: 14px;
+  margin-bottom: 0;
+  margin-top: 8px;
 }
 
 .post__author {
+  margin-top: 0;
+  margin-bottom: 8px;
   text-transform: none;
   color: #333333;
 }
 
 .post__likes {
+
   font-weight: bold;
+  padding-left: 36px;
+}
+
+.post__likes::after {
+  content: "";
+  display: block;
+  width: 320px;
+  height: 1px;
+  background-color: #c8c8c8;
+  margin-left: -20px;
+  margin-top: 17px;
 }
