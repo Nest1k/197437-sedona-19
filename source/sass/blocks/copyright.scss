@@ -14,3 +14,9 @@
   margin-bottom: -13px;
   padding-left: 11px;
 }
+
+@media (min-width: $tablet-width) {
+  .copyright {
+    margin-top: 0;
+  }
+}

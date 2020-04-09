@@ -17,3 +17,14 @@
   padding-top: 12px;
   margin-bottom: 5px;
 }
+
+@media (min-width: $tablet-width) {
+  .common-section {
+    width: 490px;
+  }
+
+  .common-section__title {
+    font-size: 21px;
+    line-height: 26px;
+  }
+}

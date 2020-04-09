@@ -4,8 +4,8 @@ body {
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
-  background-color: white;
-  color: black;
+  background-color: #ffffff;
+  color: #000000;
   min-width: 320px;
   margin: auto;
   padding: 0;
@@ -19,4 +19,20 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 320px;
+}
+
+@media (min-width: $tablet-width) {
+  .fix-with {
+    margin-left: auto;
+    margin-right: auto;
+    width: 768px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .fix-with {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+  }
 }
