@@ -15,3 +15,28 @@
   padding-top: 90px;
   padding-bottom: 79px;
 }
+
+@media (min-width: $tablet-width) {
+  .intro {
+    margin-top: -15px;
+    background-image: url(../../img/bg-intro-triangle-tablet.svg), url(../../img/bg-back-tablet@1x.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% bottom;
+    background-size: 768px, auto;
+    min-height: 196px;
+    padding-top: 94px;
+    padding-left: 156px;
+  }
+
+  .intro--index {
+    padding-left: 154px;
+    padding-top: 77px;
+    padding-bottom: 0;
+    min-height: 440px;
+  }
+
+  .intro__banner {
+    width: 460px;
+    height: auto;
+  }
+}

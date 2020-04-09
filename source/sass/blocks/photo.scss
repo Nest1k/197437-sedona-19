@@ -28,3 +28,14 @@
   height: 1px;
   background-color: #c8c8c8;
 }
+
+@media (min-width: $tablet-width) {
+  .photo__posts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .photo__posts::before {
+    content: none;
+  }
+}

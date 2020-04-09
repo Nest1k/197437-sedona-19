@@ -63,3 +63,24 @@
 .cause__photo--padding {
   padding-top: 25px;
 }
+
+@media (min-width: $tablet-width) {
+  .cause {
+    display: flex;
+    height: 256px;
+    padding-top: 0;
+  }
+
+  .cause--background {
+    background-image: none;
+  }
+
+  .cause__text {
+    width: 33.333%;
+  }
+
+  .cause__photo {
+    width: 66.666%;
+    padding-top: 0;
+  }
+}

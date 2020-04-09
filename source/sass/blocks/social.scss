@@ -25,3 +25,16 @@
   margin-left: 5px;
   padding-top: 14px;
 }
+
+@media (min-width: $tablet-width) {
+  .social {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .social__list {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
