@@ -42,3 +42,40 @@
   padding-left: 20px;
   font-family: "PT Sans", sans-serif;
 }
+
+@media (min-width: $tablet-width) {
+  .textbox {
+    width: 100%;
+  }
+
+  .textbox__title--contact {
+    width: 100%;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .textbox--contact {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .textbox__item--contact {
+    flex-wrap: nowrap;
+    width: 500px;
+  }
+
+  .textbox__title--contact {
+    width: auto;
+  }
+
+  .textbox__contact-mark {
+    display: none;
+  }
+
+  .textbox__input--contact {
+    flex-shrink: 1;
+    flex-grow: 0;
+    width: 257px;
+  }
+}
