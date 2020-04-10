@@ -20,3 +20,25 @@
   text-transform: none;
   padding-left: 36px;
 }
+
+@media (min-width: $tablet-width) {
+  .checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+  }
+
+  .checkbox__item {
+    width: 50%;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .checkbox {
+    width: auto;
+  }
+
+  .checkbox__item {
+    width: 25%;
+  }
+}
