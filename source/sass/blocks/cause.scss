@@ -69,18 +69,47 @@
     display: flex;
     height: 256px;
     padding-top: 0;
+    &:nth-child(4) {
+      flex-direction: row-reverse;
+    }
   }
 
   .cause--background {
     background-image: none;
+    margin-top: 50px;
   }
 
   .cause__text {
-    width: 33.333%;
+    width: 162px;
+    margin-top: 26px;
+    padding-top: 0;
+  }
+
+  .cause__title {
+    font-size: 21px;
+    width: 155px;
+  }
+
+  .cause__number {
+    margin-bottom: 20px;
   }
 
   .cause__photo {
     width: 66.666%;
     padding-top: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .cause__text {
+    width: 283px;
+  }
+
+  .cause__text--mod {
+    margin-top: 34px;
+  }
+
+  .cause__title {
+    padding-left: 64px;
   }
 }

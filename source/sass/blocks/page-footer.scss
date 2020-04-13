@@ -1,6 +1,22 @@
 @media (min-width: $tablet-width) {
-    .page-footer {
-      display: flex;
-      align-items: center;
-    }
+  .page-footer {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
+
+  .page-footer__social {
+    width: 66.666%;
+  }
+
+  .page-footer__copyright {
+    width: 33.333%;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-footer {
+    margin-top: 48px;
+  }
+}
