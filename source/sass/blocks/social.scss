@@ -30,11 +30,27 @@
   .social {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     margin-top: 0;
+  }
+
+  .social__title {
+    width: 198px;
+    text-align: right;
+    line-height: 26px;
+    padding-right: 105px;
   }
 
   .social__list {
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .social__title {
+    width: 256px;
+    padding-right: 263px;
   }
 }

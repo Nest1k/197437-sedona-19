@@ -40,3 +40,14 @@
     height: auto;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .intro {
+    padding-left: 370px;
+    padding-top: 101px;
+  }
+
+  .intro--index {
+    padding-left: 370px;
+  }
+}

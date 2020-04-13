@@ -27,3 +27,29 @@
   text-decoration: none;
   padding: 14px 43px 17px 44px;
 }
+
+@media (min-width: $tablet-width) {
+  .travel-question {
+    width: 460px;
+    margin-top: 29px;
+  }
+
+  .travel-question__title {
+    font-size: 30px;
+  }
+
+  .travel-question__text {
+    padding-top: 14px;
+    padding-bottom: 42px;
+  }
+
+  .travel-question__btn {
+    padding: 14px 131px 17px 134px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .travel-question__text {
+    padding-bottom: 47px;
+  }
+}
