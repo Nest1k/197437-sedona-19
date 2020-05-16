@@ -6,7 +6,7 @@
 
 .cause--background {
   content: "";
-  background-image: url(../img/bg-triangle.svg);
+  background-image: url(../../img/bg-triangle.svg);
   background-repeat: no-repeat;
   padding-top: 59px;
 }
@@ -111,5 +111,10 @@
 
   .cause__title {
     padding-left: 64px;
+  }
+
+  .cause__words--next-line {
+    width: 215px;
+    padding-left: 33px;
   }
 }

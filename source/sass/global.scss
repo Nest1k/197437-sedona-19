@@ -11,8 +11,9 @@ body {
   padding: 0;
 }
 
-.hide {
-  display: none;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .visually-hidden {
@@ -30,10 +31,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 768px;
-  }
-
-  .hide {
-    display: block;
   }
 }
 

@@ -1,5 +1,10 @@
+.page-footer {
+  padding-bottom: 23px;
+}
+
 @media (min-width: $tablet-width) {
   .page-footer {
+    padding-bottom: 36px;
     margin-top: 40px;
     display: flex;
     align-items: center;

@@ -10,11 +10,19 @@
       <nav class="main-nav">
          <!-- <button class="main-nav__toggle" type="button">открыть меню</button> -->
         <ul class="main-nav__list">
-          <li class="main-nav__item"><a class="main-nav__link" href="index.html">главная</a></li>
+          <li class="main-nav__item"><a class="main-nav__link main-nav__link--active" href="index.html">главная</a></li>
           <li class="main-nav__item"><a class="main-nav__link" href="photo.html">фото и видео</a></li>
           <li class="main-nav__item"><a class="main-nav__link" href="form.html">форма отзыва</a></li>
           <li class="main-nav__item"><a class="main-nav__link" href="https://htmlacademy.ru/intensive/adaptive">html academy</a></li>
-          <li class="main-nav__item main-nav__item--logo"><a class="main-nav__logo" href="index.html"><img src="img\logo-sedona-mobile.svg" width="102px" height="83px" alt=""></a></li>
+          <li class="main-nav__item main-nav__item--logo">
+            <a class="main-nav__logo" href="index.html">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="img\logo-sedona-desktop.svg">
+                <source media="(min-width: 768px)" srcset="img\logo-sedona-tablet.svg">
+                <img src="img\logo-sedona-mobile.svg" alt="Sedona" width="188" height="98">
+              </picture>
+            </a>
+          </li>
         </ul>
       </nav>
       <div class="intro intro--index">
@@ -27,7 +35,7 @@
       <!-- <h1 class="visually-hidden">добро пожаловать седона</h1> -->
 
       <div class="common-section">
-        <b class="common-section__title">седона — небольшой городок в аризоне, заслуживающий большего!</b>
+        <b class="common-section__title">седона &ndash; небольшой городок в аризоне, заслуживающий большего!</b>
         <p class="common-section__text">рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
       </div>
 
@@ -35,7 +43,7 @@
         <section class="cause__text cause__text--mod">
           <h2 class="cause__title">настоящий городок</h2>
           <p class="cause__number">№1</p>
-          <p>седона не аттракцион для туристов, там течет своя жизнь</p>
+          <p class="cause__words">седона не аттракцион для туристов, там течет своя жизнь</p>
         </section>
         <div class="cause__photo"><img src="img/main-city-mobile@1x.jpg" width="320px" height="260px" alt=""></div>
       </div>
@@ -70,7 +78,7 @@
             </svg>
             <div class="advantage__wrapper">
               <h3 class="advantage__title">сувениры</h3>
-              <p class="advantage__text">не только китайского, но и местного производства!</p>
+              <p class="advantage__text">не только китайского,<br class="advantage__next-line"> но и местного производства!</p>
             </div>
           </li>
           <li class="advantage__item">
@@ -86,7 +94,7 @@
             </svg>
             <div class="advantage__wrapper">
               <h3 class="advantage__title">еда</h3>
-              <p class="advantage__text">всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+              <p class="advantage__text">всегда заказывайте фирменный бургер,<br class="advantage__next-line"> вы не разочаруетесь!</p>
             </div>
           </li>
         </ul>
@@ -96,7 +104,7 @@
         <section class="cause__text cause__text--mod">
           <h2 class="cause__title">там есть мост дьявола</h2>
           <p class="cause__number">№2</p>
-          <p>да, по нему можно пройти! если вы осмелитесь, конечно</p>
+          <p class="cause__words cause__words--next-line">да, по нему можно пройти! если вы осмелитесь, конечно</p>
         </section>
         <div class="cause__photo cause__photo--padding"><img src="img/main-bridge-mobile@1x.jpg" width="320px" height="260px" alt=""></div>
       </div>
@@ -105,25 +113,25 @@
         <section class="cause__text">
           <h2 class="cause__title">небольшая площадь</h2>
           <p class="cause__number">№3</p>
-          <p>все интересные места находятся очень близко</p>
+          <p class="cause__words">все интересные места находятся очень близко</p>
         </section>
 
         <section class="cause__text">
           <h2 class="cause__title">красивая дорога</h2>
           <p class="cause__number">№4</p>
-          <p>ехать в седону из лас-вегаса совсем не скучно!</p>
+          <p class="cause__words">ехать в седону из лас&ndash;вегаса совсем не&nbsp;скучно!</p>
         </section>
 
         <section class="cause__text">
           <h2 class="cause__title">мало туристов</h2>
           <p class="cause__number">№5</p>
-          <p>большинство едет в гранд каньон и толпится там</p>
+          <p class="cause__words">большинство едет в гранд каньон и толпится там</p>
         </section>
       </div>
 
       <div class="travel-question">
         <b class="travel-question__title">заинтересовались?</b>
-        <p class="travel-question__text">укажите предполагаемые даты поездки,<br class="hide"> и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <p class="travel-question__text">укажите предполагаемые даты поездки,<br class="travel-question__next-line"> и мы покажем вам лучшие предложения гостиниц в седоне</p>
         <a class="travel-question__btn" href="">найти гостиницу</a>
       </div>
 

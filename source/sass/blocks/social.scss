@@ -26,6 +26,14 @@
   padding-top: 14px;
 }
 
+.social__item:hover {
+  background-color: #669ec0;
+}
+
+.social__item:active {
+  background-color: #5496bd;
+}
+
 @media (min-width: $tablet-width) {
   .social {
     display: flex;
