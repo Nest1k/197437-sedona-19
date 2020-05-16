@@ -18,6 +18,10 @@
   padding-bottom: 35px;
 }
 
+.travel-question__next-line {
+  display: none;
+}
+
 .travel-question__btn {
   background-color: #81b3d2;
   color: #ffffff;
@@ -26,6 +30,19 @@
   line-height: 26px;
   text-decoration: none;
   padding: 14px 43px 17px 44px;
+}
+
+.travel-question__btn:hover {
+  background-color: #669ec0;
+}
+
+.travel-question__btn:active {
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.travel-question__btn:disabled {
+  background-color: #e5e5e5;
 }
 
 @media (min-width: $tablet-width) {
@@ -41,6 +58,10 @@
   .travel-question__text {
     padding-top: 14px;
     padding-bottom: 42px;
+  }
+
+  .travel-question__next-line {
+    display: block;
   }
 
   .travel-question__btn {

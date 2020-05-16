@@ -2,6 +2,7 @@
   margin-left: 20px;
   padding-top: 22px;
   line-height: 24px;
+  margin-right: 20px;
 }
 
 .post__title {
@@ -12,14 +13,14 @@
 
 .post__author {
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   text-transform: none;
   color: #333333;
 }
 
 .post__likes {
   font-weight: bold;
-  padding-left: 36px;
+  padding-left: 11px;
 }
 
 .post__likes::after {
@@ -38,6 +39,7 @@
     flex-wrap: wrap;
     width: 324px;
     margin-left: 0;
+    margin-right: 0;
     padding-top: 0;
     &:nth-child(1) {
       width: 648px;
