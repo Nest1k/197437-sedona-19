@@ -19,7 +19,7 @@
 @media (min-width: $tablet-width) {
   .photo-question {
     width: 415px;
-    margin-top: 34px;
+    margin-top: 36px;
   }
 
   .photo-question__title {
@@ -30,5 +30,6 @@
 @media (min-width: $desktop-width) {
   .photo-question {
     margin-top: 12px;
+    padding-bottom: 19px;
   }
 }

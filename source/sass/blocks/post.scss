@@ -23,6 +23,10 @@
   padding-left: 11px;
 }
 
+.post__likes-icon path {
+  fill: rgba(0, 0, 0, 0.3);
+}
+
 .post__likes::after {
   content: "";
   display: block;
@@ -41,8 +45,12 @@
     margin-left: 0;
     margin-right: 0;
     padding-top: 0;
+    background-color: #f2f2f2;
     &:nth-child(1) {
       width: 648px;
+    }
+    &:nth-child(3) {
+      background-color: #eaeaea;
     }
   }
 
@@ -59,7 +67,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #eaeaea;
     width: 324px;
     min-height: 80px;
     &:nth-child(2) {
@@ -97,12 +104,16 @@
   }
 
   .post__content {
-    margin-top: -67px;
+    margin-top: -80px;
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.3);
     &:nth-child(2) {
       width: 1200px;
     }
+  }
+
+  .post__likes-icon path {
+    fill: #ffffff;
   }
 
   .post__author {

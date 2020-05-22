@@ -1,5 +1,5 @@
 .photo {
-  margin-top: 41px;
+  margin-top: 39px;
 }
 
 .photo__title {
@@ -63,5 +63,13 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 112px;
+  }
+
+  .photo__posts {
+    padding-bottom: 60px;
+  }
+
+  .photo__text {
+    padding-bottom: 3px;
   }
 }

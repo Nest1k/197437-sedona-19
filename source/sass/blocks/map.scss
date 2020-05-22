@@ -1,0 +1,17 @@
+@media (min-width: $tablet-width) {
+  .map {
+    width: 100%;
+    height: 350px;
+  }
+
+  .map__map {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .map {
+    width: 100%;
+  }
+}
