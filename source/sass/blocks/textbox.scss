@@ -147,7 +147,7 @@
     width: auto;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 0;
+    padding-bottom: 6px;
   }
 
   .textbox__item {
@@ -176,7 +176,7 @@
   }
 
   .textbox__title--phone::after {
-    left: 320px;
+    left: 340px;
     top: -10px;
   }
 

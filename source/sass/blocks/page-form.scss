@@ -30,11 +30,16 @@
   .page-form__text {
     width: 439px;
     padding-top: 31px;
+    padding-bottom: 30px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .page-form__title {
     padding-top: 111px;
+  }
+
+  .page-form__text {
+    padding-bottom: 13px;
   }
 }

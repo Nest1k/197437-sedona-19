@@ -80,14 +80,15 @@
   }
 
   .cause__text {
-    width: 162px;
+    width: 161px;
     margin-top: 26px;
     padding-top: 0;
   }
 
   .cause__title {
     font-size: 21px;
-    width: 155px;
+    width: 150px;
+    padding-left: 5px;
   }
 
   .cause__number {
@@ -116,5 +117,14 @@
   .cause__words--next-line {
     width: 215px;
     padding-left: 33px;
+  }
+
+  .cause__photo {
+    overflow: hidden;
+    height: 256px;
+  }
+
+  .cause__img {
+    margin-top: -72px;
   }
 }

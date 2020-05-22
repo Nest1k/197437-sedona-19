@@ -26,6 +26,18 @@
   padding-top: 14px;
 }
 
+.social__svg {
+  fill: #ffffff;
+}
+
+.social__item:hover .social__svg {
+  fill: #ffffff;
+}
+
+.social__item:active .social__svg {
+  fill: rgba(255, 255, 255, 0.3);
+}
+
 .social__item:hover {
   background-color: #669ec0;
 }

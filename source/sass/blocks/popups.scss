@@ -1,0 +1,33 @@
+.popups {
+  width: 320px;
+  text-align: center;
+  min-height: 280px;
+}
+
+.popups__title {
+  width: 210px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.popups__text {
+  width: 216px;
+  line-height: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.popups__wrapper {
+  width: 320px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  background-color: #f2f2f2;
+}
+
+.popups__btn {
+  background-color: #81b3d2;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 22px 77px 22px 77px;
+}
