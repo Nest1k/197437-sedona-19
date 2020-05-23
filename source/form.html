@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Седона</title>
     <link rel="preload" href="fonts/ptsans.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" href="fonts/ptsansbold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
@@ -69,7 +70,7 @@
           <div class="textbox textbox--contact">
             <div class="textbox__item textbox__item--contact">
               <label class="textbox__title textbox__title--phone" for="phone"><span class="textbox__contact-mark">контактный</span> телефон*:</label>
-              <input class="textbox__input textbox__input--phone" type="tel" id="phone" name="phone" placeholder="Введите телефон">
+              <input class="textbox__input textbox__input--phone" type="tel" id="phone" name="phone" placeholder="Введите телефон" pattern="8[0-9]{10}">
             </div>
             <div class="textbox__item textbox__item--contact">
               <label class="textbox__title  textbox__title--mail" for="mail">электронная почта*:</label>

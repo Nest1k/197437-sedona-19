@@ -8,6 +8,10 @@
   background-position: 50% bottom;
   background-size: 330px, auto;
   margin-top: -15px;
+
+  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    background-image: url("../../img/bg-back-mobile@2x.jpg");
+  }
 }
 
 .intro--index {
@@ -26,6 +30,10 @@
     min-height: 196px;
     padding-top: 94px;
     padding-left: 156px;
+
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      background-image: url("../../img/bg-back-tablet@2x.jpg");
+    }
   }
 
   .intro--index {
@@ -47,6 +55,10 @@
     padding-top: 105px;
     background-image: url("../../img/bg-intro-triangle-desktop.svg"), url("../../img/bg-back-desktop@1x.jpg");
     background-size: 1200px, auto;
+
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      background-image: url("../../img/bg-back-desktop@2x.jpg");
+    }
   }
 
   .intro--index {

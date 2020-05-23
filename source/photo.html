@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Седона</title>
     <link rel="preload" href="fonts/ptsans.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" href="fonts/ptsansbold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
@@ -49,11 +50,10 @@
         <section class="post">
           <a href="" class="post__picture post__picture--first">
             <picture>
-              <source media="(min-width: 1200px)" srcset="img/photo-sunset-desktop@1x.jpg">
-              <source media="(min-width: 768px)" srcset="img/photo-sunset-tablet@1x.jpg">
-              <img src="img/photo-sunset-mobile@1x.jpg" width="1200" height="400" alt="sunset">
+              <source media="(min-width: 1200px)" srcset="img/photo-sunset-desktop@1x.jpg 1x, img/photo-sunset-desktop@2x.jpg 2x">
+              <source media="(min-width: 768px)" srcset="img/photo-sunset-tablet@1x.jpg 1x, img/photo-sunset-tablet@2x.jpg 2x">
+              <img src="img/photo-sunset-mobile@1x.jpg" srcset="img/photo-sunset-mobile@2x.jpg 2x" width="1200" height="400" alt="sunset">
             </picture>
-            <!-- <img src="img/photo-sunset-mobile@1x.jpg" width="280" height="280" alt=""> -->
           </a>
           <div class="post__content">
             <div class="post__text">

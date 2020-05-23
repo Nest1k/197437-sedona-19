@@ -26,13 +26,10 @@
   margin-bottom: 12px;
 }
 
-.advantage__next-line {
-  display: none;
-}
-
 .advantage__svg {
   width: 37px;
   height: 37px;
+  fill: #81b3d2;
 }
 
 @media (min-width: $tablet-width) {
@@ -71,10 +68,6 @@
     padding-left: 47px;
   }
 
-  .advantage__next-line {
-    display: block;
-  }
-
   .advantage__svg {
     width: 75px;
     height: 75px;
@@ -93,6 +86,7 @@
   .advantage__text {
     width: 283px;
     padding-left: 56px;
+    white-space: pre-wrap;
   }
 
   .advantage__svg {

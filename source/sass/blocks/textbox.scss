@@ -41,7 +41,7 @@
   flex-grow: 2;
   width: 140px;
   padding-left: 20px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PTSans", "Arial", sans-serif;
 }
 
 .textbox__title--phone {
@@ -90,6 +90,11 @@
   background-color: #ffffff;
   outline: 4px solid #e5e5e5;
   outline-offset: -4px;
+}
+
+.textbox__input--mail:invalid,
+.textbox__input--phone:invalid {
+  background-color: #fc0d0d;
 }
 
 @media (min-width: $tablet-width) {
