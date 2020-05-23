@@ -6,7 +6,7 @@
 
 .cause--background {
   content: "";
-  background-image: url(../../img/bg-triangle.svg);
+  background-image: url("../../img/bg-triangle.svg");
   background-repeat: no-repeat;
   padding-top: 59px;
 }
@@ -29,12 +29,6 @@
   width: 265px;
   padding-bottom: 0;
   padding-top: 0;
-  &::before {
-    content: "";
-    background-image: url(../../img/bg-triangle.svg);
-    background-repeat: no-repeat;
-    display: block;
-  }
 }
 
 .cause__title {
@@ -69,6 +63,7 @@
     display: flex;
     height: 256px;
     padding-top: 0;
+
     &:nth-child(4) {
       flex-direction: row-reverse;
     }
