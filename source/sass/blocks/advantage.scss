@@ -50,6 +50,7 @@
   .advantage__item {
     flex-direction: column;
     width: 33.333%;
+
     &:nth-child(2) {
       order: 1;
     }

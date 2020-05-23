@@ -3,7 +3,7 @@
   min-height: 109px;
   padding-left: 45px;
   padding-top: 50px;
-  background-image: url(../../img/bg-intro-triangle-mobile.svg), url(../../img/bg-back-mobile@1x.jpg);
+  background-image: url("../../img/bg-intro-triangle-mobile.svg"), url("../../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: 50% bottom;
   background-size: 330px, auto;
@@ -19,7 +19,7 @@
 @media (min-width: $tablet-width) {
   .intro {
     margin-top: -15px;
-    background-image: url(../../img/bg-intro-triangle-tablet.svg), url(../../img/bg-back-tablet@1x.jpg);
+    background-image: url("../../img/bg-intro-triangle-tablet.svg"), url("../../img/bg-back-tablet@1x.jpg");
     background-repeat: no-repeat;
     background-position: 50% bottom;
     background-size: 768px, auto;
@@ -45,7 +45,7 @@
   .intro {
     padding-left: 370px;
     padding-top: 105px;
-    background-image: url(../../img/bg-intro-triangle-desktop.svg), url(../../img/bg-back-desktop@1x.jpg);
+    background-image: url("../../img/bg-intro-triangle-desktop.svg"), url("../../img/bg-back-desktop@1x.jpg");
     background-size: 1200px, auto;
   }
 
